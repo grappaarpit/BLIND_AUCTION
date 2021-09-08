@@ -23,4 +23,6 @@ for name_bid in data:
      winner = name_bid
      winning_price=data[name_bid]
 
+clear()
+print(art.logo)
 print(f"The winner is {winner}, with {winning_price} as the bid") 
